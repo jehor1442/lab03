@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="RaportApp">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <scrollpane id="a1b2c" class="javax.swing.JScrollPane">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="d3e4f" class="javax.swing.JTextArea" binding="reportArea">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <grid id="5a6b7" binding="bottomPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="8c9d0" class="javax.swing.JButton" binding="generateButton">
+            <constraints/>
+            <properties>
+              <text value="Generuj Raport w Tle"/>
+            </properties>
+          </component>
+          <component id="1e2f3" class="javax.swing.JProgressBar" binding="progressBar">
+            <constraints/>
+            <properties>
+              <maximum value="100"/>
+              <minimum value="0"/>
+              <stringPainted value="true"/>
+              <value value="0"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
